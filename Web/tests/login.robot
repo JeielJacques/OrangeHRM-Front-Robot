@@ -51,7 +51,7 @@ Cenário 05: Login com usuário inválido
   E eu clico no botão "Login"
   Então devera aparecer uma mensagem de erro 
 
-cenário 06: Login com senha inválida
+Cenário 06: Login com senha inválida
   [Documentation]    Cenário que testa o login com a senha invalida
   [Tags]    C6
   Dado que eu esteja na página de login

@@ -8,14 +8,14 @@ ${URL}        https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 ...    usuario=Admin
 ...    senha=admin123
 &{LOGIN}      
-...    logo=//*[@alt='company-branding']
-...    usuario=//*[@name='username']
-...    senha=//*[@name='password']
-...    btn_login=//button[@type='submit']
-...    link_esqueceu_senha=//p[contains(.,'Forgot your password?')]
-...    link_OrangeHRMInc=//a[text()='OrangeHRM, Inc']
-...    msg_obrigatoria=//span[contains(text(),input-field-error-message)]
-...    alerta_erro=//*[@role='alert']
-...    msg_alerta=//p[contains(.,'Invalid credentials')]
+...    logo=xpath=//*[@alt='company-branding']
+...    usuario=xpath=//*[@name='username']
+...    senha=xpath=//*[@name='password']
+...    btn_login=xpath=//button[@type='submit']
+...    link_esqueceu_senha=xpath=//p[contains(.,'Forgot your password?')]
+...    link_OrangeHRMInc=xpath=//a[text()='OrangeHRM, Inc']
+...    msg_obrigatoria=xpath=//span[contains(text(),input-field-error-message)]
+...    alerta_erro=xpath=//*[@role='alert']
+...    msg_alerta=xpath=//p[contains(.,'Invalid credentials')]
 
 
