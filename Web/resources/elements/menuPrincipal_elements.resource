@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Aqui ficarao todos os elementos do menu principal
+Documentation    Aqui ficarão todos os elementos do menu principal
 
 *** Variables ***
 

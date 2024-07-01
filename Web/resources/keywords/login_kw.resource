@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Nesse arquivo irao ficar todas as keywords referentes a tela de login
+Documentation    Nesse arquivo irão ficar todas as keywords referentes a tela de login
 
 Resource         ../util/main.robot
 
@@ -31,7 +31,7 @@ E eu deixo o campo "Password" vazio
     Wait Until Element Is Visible    ${LOGIN.logo}    10s
     Input Text    ${LOGIN.senha}    text=
     
- Então devera aparecer uma mensagem de campo obrigatorio
+ Então devera aparecer uma mensagem de campo obrigatório
     Wait Until Element Is Visible    ${LOGIN.msg_obrigatoria}    10s
     ${mensagem_obrigatoria}    Get Text    ${LOGIN.msg_obrigatoria}
     Should Be Equal As Strings    ${mensagem_obrigatoria}    Required

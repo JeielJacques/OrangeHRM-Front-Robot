@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Neste arquivo ficara todos os cenarios de teste referentes a pagina home
+Documentation    Neste arquivo ficarão todos os cenários de teste referentes a página home
 Resource         ../resources/util/main.robot    
 Test Setup       Abrir navegador
 Test Teardown    Fechar navegador
@@ -24,7 +24,7 @@ Cenário 02: Verificação do rodapé da pagina
   Então devo ver o rodapé com o texto    OrangeHRM OS 5.6.1
 
 Cenário 03: Logout do sistema
-  [Documentation]    Cenário que verifica se o usuario consegue fazer logout do sistema
+  [Documentation]    Cenário que verifica se o usuário consegue fazer logout do sistema
   [Tags]    C3
   Dado que eu esteja logado no sistema
   Quando clico no menu do usuário

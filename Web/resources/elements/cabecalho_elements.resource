@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Neste arquivo estarão todos os elementos do cabeçalho das paginas
+Documentation    Neste arquivo estarão todos os elementos do cabeçalho das páginas
 
 *** Variables ***
 &{CABECALHO}   

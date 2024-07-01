@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Nesse arquivo ficarão todos as configurações referente e Setup e Teardown
+Documentation    Nesse arquivo ficarão todos as configurações referentes a Setup e Teardown
 Resource         main.robot
 
 

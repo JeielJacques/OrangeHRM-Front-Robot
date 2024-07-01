@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Aqui estarao todos os elementos contigos no menu de usuario
+Documentation    Aqui estarão todos os elementos contidos no menu de usuário
 
 *** Variables ***
 &{MENU_U}    

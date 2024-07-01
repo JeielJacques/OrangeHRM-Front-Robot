@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Aqui ficarao todos os elementos da pagina de login
+Documentation    Aqui ficarão todos os elementos da página de login
 Resource         ../util/main.robot
 
 *** Variables ***

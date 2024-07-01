@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Aqui ficarao todos os elementos da pagina de login
+Documentation    Aqui ficarão todos os elementos da página de login
 
 *** Variables ***
 
@@ -7,6 +7,7 @@ ${URL}        https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 &{CREDENCIAIS}
 ...    usuario=Admin
 ...    senha=admin123
+
 &{LOGIN}      
 ...    logo=xpath=//*[@alt='company-branding']
 ...    usuario=xpath=//*[@name='username']
