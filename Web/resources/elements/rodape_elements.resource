@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Aqui ficarao todos os elementos do rodapé da pagina
+Documentation    Aqui ficarão todos os elementos do rodapé da página
 
 *** Variables ***
 &{RODAPE}    

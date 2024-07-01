@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Nesse arquivo irao ficar todas as keywords referentes a tela de login
+Documentation    Nesse arquivo irão ficar todas as keywords referentes a tela de login
 
 Resource         ../util/main.robot
 
@@ -32,6 +32,7 @@ E devo ver a seção "Lançamento Rápido"
 E devo ver a seção "Distribuição de Funcionários por Subunidade"
     Wait Until Element Is Visible    ${CABECALHO.logo}    10s
     Page Should Contain Element    ${DASHBOARD.distribuição_Un}
+
 E devo ver a seção "Funcionarios Ausentes"
     Wait Until Element Is Visible    ${CABECALHO.logo}    10s
     Page Should Contain Element    ${DASHBOARD.ausentes}
@@ -40,14 +41,16 @@ Então devo ver o rodapé com o texto
     [Arguments]    ${texto_esperado}
     Wait Until Element Is Visible    ${CABECALHO.logo}
     ${texto_pag}    Get Text    ${RODAPE.rodape}/p[1]
-    Should Be Equal As Strings    ${texto_pag}    ${texto_esperado}    msg=As mensgens não sao iguais
+    Should Be Equal As Strings    ${texto_pag}    ${texto_esperado}    msg=As mensagens não sao iguais
 
 Quando clico no menu do usuário
     Wait Until Element Is Visible    ${CABECALHO.logo}
     Click Element    ${MENU_U.btn_menu}
+
 E clico na opção "Logout"
     Wait Until Element Is Visible    ${MENU_U.menu}
     Click Element    ${MENU_U.logout}
+
 Entao devo ser redireconado para a página de login
     Wait Until Element Is Visible    ${LOGIN.logo}
     Location Should Be    ${URL}
